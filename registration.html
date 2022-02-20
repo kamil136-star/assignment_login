@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="registration.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="top-div">
+                <h2>Registration</h2>
+               
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class=" input-text"> 
+                        <input type="text" required="required"> <span>Name</span> <i class="fa fa-envelope-o"></i> 
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class=" input-text"> 
+                        <input type="text" required="required"> <span>Email</span> <i class="fa fa-envelope-o"></i> 
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class=" input-text"> 
+                        <input type="text" required="required"> <span>Mobile</span> <i class="fa fa-envelope-o"></i> 
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class=" input-text"> 
+                        <!-- <input type="text" required="required"> <span>Email</span> <i class="fa fa-envelope-o"></i> 
+                         -->
+                         <select name="select" id="selecter" class="w-100">
+                             <option value="0">Male</option>
+                             <option value="1">Female</option>
+                             <option value="2">Other</option>
+                         </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    Select Country:
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          India
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          other
+                        </label>
+                      </div>
+                </div>
+                <div class="col-lg-6">
+                    <label for="Education">Highest Education</label>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+                        <label class="form-check-label" for="check1">check</label>
+                      </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                        <label class="form-check-label" for="check2">check 2</label>
+                      </div>
+                </div>
+            </div>
+           
+            <div class="input-text">
+                 <input type="password" required="required" id="password_input"> <span>Password</span>  
+                 
+                </div>
+           
+              
+            <div class="sign-in"> <button>Sign in</button> </div>
+            <div class="or"> <small>or sign in with</small> </div>
+            <hr>
+            <div class="google"> <button>Google</button> </div>
+            <div class="last">
+                <button> Facebook</button>
+               
+                <button> Twitter</button>
+               
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
